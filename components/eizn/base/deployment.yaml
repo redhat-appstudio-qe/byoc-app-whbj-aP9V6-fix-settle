@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: eizn
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-lxma-tenant/byoc-app-whbj/eizn@sha256:9ad1e3cf81a973c0bbb109bea4847ff0fac30f384edb997710661033aa631c49
         name: my-java-quarkus
         ports:
         - containerPort: 8081
